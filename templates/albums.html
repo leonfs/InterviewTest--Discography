@@ -1,0 +1,9 @@
+<div id="albums-{{artist.id}}" class="albums-container">
+	<h3>Albums</h3>
+	<ul>
+		<li ng-repeat="album in albumsLookup.albums">
+			Title: {{album.title}} - Year: {{album.year}}
+		</li>
+	</ul>
+</div>
+

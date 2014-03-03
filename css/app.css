@@ -1,0 +1,22 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.artist-container {
+	min-height: 100px;
+}
+
+.artist-container button {
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+
+.albums-container {
+
+}
+
+.wikis-container {
+
+}

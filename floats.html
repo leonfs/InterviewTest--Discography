@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Floats Test</title>
+    <style type="text/css">
+        
+        .container {
+            background-color: #CDE;
+            padding: 30px;
+            border: 1px solid #000000;
+        }
+
+        .sidebar {
+            background-color: #CDE0FF;
+            border: 1px dashed green;
+            height: 150px;
+            line-height: 22px;
+            float: right;
+            padding-left: 10px;
+            width: 28%;
+        }
+
+        .sidebar ul {
+            padding: 0px;
+        }
+
+        .sidebar li  {
+            list-style: none;
+        }
+
+        .main-content {
+            float: left;
+            width: 70%;
+            border: 2px dashed yellow;
+            margin-bottom: 10px;
+        }
+
+        .clear-left {
+            clear: left;
+        }
+
+        .clear-right {
+            clear: right;
+        }
+
+        .clear-both {
+            clear: both;
+        }
+
+        .clearfix:after {
+            content: ".";
+            clear: both;
+            visibility: hidden;
+            display: block;
+            height: 0;
+        }
+
+`
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Floating Elements</h1>
+        
+        <div class="sidebar">
+            <ul>
+                <li><a href="">First Value</a></li>
+                <li><a href="">Second Value</a></li>
+                <li><a href="">Third Value</a></li>
+            </ul>
+        </div>
+
+        
+        
+        <div class="main-content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat neque mauris, sollicitudin pulvinar libero tristique id. Mauris dolor odio, facilisis eu suscipit eu, sollicitudin id leo. Vivamus ac sem id libero gravida pellentesque sit amet id nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus adipiscing pellentesque nunc, vel sodales arcu mattis vel. Vivamus arcu nulla, rhoncus et bibendum pellentesque, vestibulum eget massa. Donec ut ante ante. Nulla lacinia condimentum nisl. Vivamus gravida feugiat orci, quis laoreet nunc mattis vitae. Praesent porta dictum pellentesque. In hac habitasse platea dictumst. Maecenas varius imperdiet dapibus. Praesent in auctor elit. Pellentesque eget placerat nunc. Phasellus a enim eget metus rutrum vestibulum. Aliquam laoreet libero eu diam ultricies ornare.
+            </p>
+            <p>
+                Pellentesque faucibus facilisis elit, vitae consectetur odio dictum et. Nulla augue turpis, tincidunt non laoreet id, tempor a felis. Nulla sed mauris non libero aliquam hendrerit. Integer pulvinar adipiscing risus et malesuada. Vestibulum a aliquet nunc, in tempor orci. Aliquam erat volutpat. Ut id enim aliquam, commodo leo id, dictum purus. Proin eu tincidunt nisl. Phasellus dignissim tortor volutpat enim egestas porta. Integer viverra eros a lacus mollis, nec vestibulum massa aliquet.
+            </p>
+        </div>
+
+        <div class="clear-right">
+            Would this be cleared???
+        </div>
+
+        
+    </div>
+</body>
+</html>
